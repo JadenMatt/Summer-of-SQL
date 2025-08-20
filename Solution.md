@@ -29,7 +29,7 @@ Security footage revealed there were two witnesses:
 
 This gave me my first lead: find the two witnesses.
 
-Step 2 – Identify the two witnesses
+## Step 2 – Identify the two witnesses
 
 First witness (last house on Northwestern Dr):
 
@@ -61,7 +61,7 @@ Output:
 
 Now I had both witnesses’ IDs.
 
-Step 3 – Retrieve witness statements
+## Step 3 – Retrieve witness statements
 
 ```sql
 select *
@@ -80,7 +80,7 @@ Outputs:
 
 Both statements pointed me straight to the gym database.
 
-Step 4 – Track Annabel’s gym activity
+## Step 4 – Track Annabel’s gym activity
 
 First I confirmed Annabel’s gym membership:
 
@@ -110,7 +110,7 @@ Output:
 
 This gave me a timeframe to search for suspects who were in the gym at the same time.
 
-Step 5 – Find suspects at the gym at the same time
+## Step 5 – Find suspects at the gym at the same time
 
 ```sql
 select *
@@ -141,7 +141,7 @@ Outputs:
 
 So there were two main suspects.
 
-Step 6 – Match suspect cars
+## Step 6 – Match suspect cars
 
 From the witness, I knew the killer’s car had "H42W" in the number plate.
 
@@ -160,7 +160,7 @@ Outputs:
 
 At this point, it was clear that Jeremy Bowers was the murderer.
 
-Step 7 – Interrogate Jeremy
+## Step 7 – Interrogate Jeremy
 
 ```sql
 select *
